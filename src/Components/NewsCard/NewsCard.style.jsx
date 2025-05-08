@@ -6,7 +6,7 @@ export default StyleSheet.create({
         margin: 10,
         marginTop: 3,
         backgroundColor: "#fff",
-        padding: 10,
+        borderRadius: 5,
     },
     image:{
         height: Dimensions.get('window').height/4,
@@ -18,8 +18,11 @@ export default StyleSheet.create({
         fontWeight: "bold",
         marginTop: 5,
         marginBottom: 5,
+        paddingLeft: 10,
     },
     description: {
+        paddingLeft: 10,
+        paddingRight: 10,
         fontSize: 15,
         marginBottom: 5,
         padding:3,
@@ -30,5 +33,6 @@ export default StyleSheet.create({
         marginBottom: 5,
         textAlign: "right",
         fontStyle: "italic",
+        marginRight: 10,
     },
 });
